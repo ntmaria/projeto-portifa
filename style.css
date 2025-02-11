@@ -42,13 +42,12 @@ nav ul{
 nav li a{
     margin: 2px;
     padding: 3px;
-    border-radius: 5px;
     font-family: "Abril Fatface", serif;
     color: #695a6f;
 }
 
 nav li a:hover{
-    color: #7e3e97;
+    color: #c566a2;
     border-bottom: 2px solid #695a6f;
 }
 
