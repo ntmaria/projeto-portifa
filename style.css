@@ -55,7 +55,7 @@ header{
     background-color: #f9ecff;
     display: flex;
     align-items: center;
-    background-image: url(/links/gradient_background_G.jpg);
+    background-image: url('https://static.tumblr.com/goyf4qd/UiKsrje9e/gradient_background_g.jpg');
     background-size: cover;
     align-content: center;
     justify-content: space-around;
@@ -102,7 +102,7 @@ header h1{
 }
 
 .sobre{
-    background: url('/links/gradient_background_G.jpg') fixed;
+    background: url('https://static.tumblr.com/goyf4qd/UiKsrje9e/gradient_background_g.jpg') fixed;
     background-size: cover;
     background-color: yellow;
     padding: 10px;
