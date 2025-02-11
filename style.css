@@ -51,10 +51,6 @@ nav li a:hover{
     border-bottom: 2px solid #a84560;
 }
 
-nav li a:visited{
-    color: #695a6f;
-}
-
 header{
     background-color: #f9ecff;
     display: flex;
