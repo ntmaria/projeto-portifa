@@ -48,7 +48,11 @@ nav li a{
 
 nav li a:hover{
     color: #a84560;
-    border-bottom: 2px solid #a84560;
+    border-bottom: 2px solid #a84560 
+}
+
+nav li a:visited{
+    color: #695a6f;
 }
 
 header{
