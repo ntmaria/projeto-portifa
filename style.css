@@ -44,11 +44,16 @@ nav li a{
     padding: 3px;
     border-radius: 5px;
     font-family: "Abril Fatface", serif;
+    color: #695a6f;
 }
 
 nav li a:hover{
-    color: #695a6f;
+    color: #7e3e97;
     border-bottom: 2px solid #695a6f;
+}
+
+nav li a:visited{
+    color: #695a6f;
 }
 
 header{
