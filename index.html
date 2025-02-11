@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ntmaria</title>
+    <link rel="shortcut icon" href="/links/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="/links/logo.png" alt="logo">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#serviços">SERVIÇOS</a></li>
+            <li><a href="#contato">CONTATO</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="/links//header.png" alt="">
+        <h1>&lt;Hello&gt;</h1>
+    </header>
+        <section id="serviços" class="serviços">
+        <div id="grafico">
+            <img src="/links/grafico.png" alt="design gráfico">
+            <h1>Designer Gráfico</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit expedita quidem vero magnam, ut labore porro eligendi pariatur placeat architecto accusamus rem exercitationem inventore doloremque dolorum magni similique quod.</p>
+        </div>
+
+        <div id="editorial">
+            <img src="/links/editorial.png" alt="design editorial">
+            <h1>Designer Editorial</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit expedita quidem vero magnam, ut labore porro eligendi pariatur placeat architecto accusamus rem exercitationem inventore doloremque dolorum magni similique quod.</p>
+        </div>
+
+        <div id="web">
+            <img src="/links/web.png" alt="web design">
+            <h1>Web Designer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit expedita quidem vero magnam, ut labore porro eligendi pariatur placeat architecto accusamus rem exercitationem inventore doloremque dolorum magni similique quod.</p>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h1>Sobre mim</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ut molestiae corrupti deleniti rerum et, vero, alias officia, at cupiditate placeat modi dolorem fugiat nesciunt deserunt aliquid? Accusantium, maxime sapiente!</p>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="texto_contato">
+            <h1>Contato</h1>
+        </div>
+        <div class="container">
+            <form action="enviar.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+    
+                <label for="email">Email de Contato:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+                <button type="submit" class="btn-enviar">Enviar</button>
+                <button type="reset" class="btn-apagar">Apagar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>created by <a href="https://github.com/ntmaria" target="_blank">ntmaria</a></p>
+        <p>Todos os direitos reservados &reg;</p>
+    </footer>
+</body>
+</html>
