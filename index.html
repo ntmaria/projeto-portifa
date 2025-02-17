@@ -9,6 +9,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<script>
+    // Quando o usuário rolar a página, execute a função scrollFunction
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    // Mostre o botão quando o usuário rolar 20px da parte superior do documento
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("topBtn").style.display = "block";
+    } else {
+        document.getElementById("topBtn").style.display = "none";
+    }
+}
+
+// Quando o usuário clicar no botão, role de volta para o topo do documento
+function topFunction() {
+    document.body.scrollTop = 0; // Para Safari
+    document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE e Opera
+}
+
+</script>
+    
 </head>
 <body>
     <nav>
@@ -54,24 +75,30 @@
             <h1>Contato</h1>
         </div>
         <div class="container">
-            <form action="enviar.php" method="POST">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-    
-                <label for="email">Email de Contato:</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-    
-                <button type="submit" class="btn-enviar">Enviar</button>
-                <button type="reset" class="btn-apagar">Apagar</button>
-            </form>
+            <H1>Você pode me encontrar...</H1>
+            <ul>
+                <li>
+                    <p><a href="mailto:ntmaria2@gmail.com">no email: ntmaria2@gmail.com</p>
+                </li>
+                <li>
+                    <p><a href="https://wa.me/5521975818162?text=Olá!%20Gostaria%20de%20mais%20informações." target="_blank">no WhatsApp</a></p>
+                </li>
+            </ul>
+            <h2>ou nas minhas redes sociais</h2>
+            <ul>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+            </ul>
         </div>
     </section>
     <footer>
         <p>created by <a href="https://github.com/ntmaria" target="_blank">ntmaria</a></p>
         <p>Todos os direitos reservados &reg;</p>
     </footer>
+    <button onclick="topFunction()" id="topBtn" title="Voltar ao topo">&uarr;</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
